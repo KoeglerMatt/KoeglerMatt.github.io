@@ -1,0 +1,163 @@
+{
+  "name": "Matthew Koegler",
+  "headline": "Business Operations & Systems",
+  "specialties": "Payments · Financial Operations · Revenue Reporting",
+  "email": "Koeglerm@yahoo.com",
+  "linkedin": "https://www.linkedin.com/in/matthew-koegler/",
+  "projects": [
+    {
+      "slug": "billing-workflow-rewrite",
+      "company": "PayTrace",
+      "category": "Billing systems & cross-functional delivery",
+      "title": "A finalized statement that stays final.",
+      "headline": "An eight-month billing rewrite, from workflow definition through validation.",
+      "context": "Customer statements needed to be dependable records of completed billing periods. Finance, customer-facing teams, and customers all relied on the same information.",
+      "problem": "Later account activity could change a finalized statement. That made it harder to explain a billing period and rely on the statement as a fixed record.",
+      "role": "I owned the end-to-end business workflow and development of the associated reporting. I partnered with Finance, Product, and Engineering on requirements, implementation, testing, and rollout; engineering delivery was a cross-functional effort.",
+      "approach": [
+        "Documented the existing statement behavior and the business requirements for a finalized record.",
+        "Connected the billing workflow and reporting requirements across Finance, Product, and Engineering.",
+        "Worked through testing and validation to check the revised behavior against the original problem.",
+        "Carried the business workflow through rollout and reporting delivery."
+      ],
+      "solution": "A revised billing workflow and supporting reporting that preserved finalized statements after subsequent account activity.",
+      "results": [
+        "Delivered the billing rewrite over eight months.",
+        "Finalized statements remained fixed after finalization.",
+        "Customers and internal teams had a dependable record of the completed billing period."
+      ],
+      "tools": [
+        "Billing systems",
+        "Business requirements",
+        "Reporting",
+        "Workflow testing"
+      ],
+      "next": "Extend regression coverage to statement edge cases and track recurring billing exceptions so new changes preserve the same control.",
+      "flow": [
+        "Define the issue",
+        "Map the workflow",
+        "Develop & test",
+        "Validate the record"
+      ],
+      "status": "Completed project",
+      "evidence": "The eight-month duration is an actual delivery timeline, not a claimed reduction against a prior schedule."
+    },
+    {
+      "slug": "revenue-share-operations",
+      "company": "SoundCommerce",
+      "category": "Business operations & reporting design",
+      "title": "One process from source reports to partner payouts.",
+      "headline": "Centralized merchant mappings, revenue-share rules, reconciliation, and reporting.",
+      "context": "Revenue-share operations connect source reports, merchant relationships, partner calculations, and payments. Leadership needs to understand both what the business earns and how the underlying activity supports that result.",
+      "problem": "Separate files and partner-specific calculations make recurring reporting difficult to follow. A mismatch can originate in source data, merchant mapping, calculation rules, or payment activity; those differences need to remain traceable.",
+      "role": "I own the end-to-end operational workflow and reporting development, including recurring reconciliation and investigation of revenue-share discrepancies. I coordinate with internal stakeholders to clarify rules and resolve exceptions.",
+      "approach": [
+        "Centralized merchant mappings and partner setup so recurring calculations use consistent reference data.",
+        "Brought monthly revenue, revenue-share calculations, partner statements, reconciliation, and payout tracking into a connected workbook.",
+        "Built validation and exception views to investigate differences and compare revised outputs with the legacy process.",
+        "Developed reporting for different audiences and documented recurring steps to make the process easier to maintain."
+      ],
+      "solution": "A redesigned revenue-share tracker with connected reference data, calculation logic, reconciliation, payout tracking, and partner and management reporting.",
+      "results": [
+        "Centralized the inputs and reporting needed to follow revenue-share activity through the workflow.",
+        "Made merchant mapping, partner logic, reconciliation, and payout status available within a connected tracking process.",
+        "Created a structure for recurring exception investigation and reporting; the contract work is ongoing."
+      ],
+      "tools": [
+        "Excel",
+        "Processor reporting",
+        "Merchant mapping",
+        "Reconciliation",
+        "SOPs"
+      ],
+      "next": "Prioritize repeatable imports and exception checks for automation, while preserving source traceability and approval controls.",
+      "flow": [
+        "Source reports",
+        "Map & calculate",
+        "Reconcile",
+        "Report & track payouts"
+      ],
+      "status": "Ongoing contract work",
+      "evidence": "The public samples use fictional entities and illustrative figures. They demonstrate the method and are not employer records or measured business results."
+    },
+    {
+      "slug": "commission-systems",
+      "company": "PartsBase",
+      "category": "Commission operations & systems implementation",
+      "title": "Compensation rules translated into calculation logic.",
+      "headline": "Connected approved plan requirements to CaptivateIQ calculations and validation.",
+      "context": "A commission process needs to translate approved compensation plans into consistent calculations that Finance and Sales can understand and review.",
+      "problem": "The manual process was becoming harder to maintain. Moving into a platform required translating plan rules carefully, validating the underlying data, and investigating unexpected outputs.",
+      "role": "I contributed to the CaptivateIQ implementation by translating compensation requirements, validating source data and outputs, and investigating exceptions. My contribution sat within the broader implementation effort.",
+      "approach": [
+        "Worked from approved compensation requirements to define calculation logic.",
+        "Checked source data and calculated outputs for consistency with those requirements.",
+        "Investigated exceptions during testing and supported the implementation work."
+      ],
+      "solution": "Calculation logic and validation work supporting the move from a manual commission process into CaptivateIQ.",
+      "results": [
+        "Translated compensation requirements into system calculation logic.",
+        "Validated source data and outputs and investigated exceptions during implementation.",
+        "Supported the move from manual calculations to a structured commission platform."
+      ],
+      "tools": [
+        "CaptivateIQ",
+        "Compensation rules",
+        "Data validation",
+        "Exception analysis"
+      ],
+      "next": "Maintain a reusable set of test cases covering plan changes, unusual transactions, and payout exceptions.",
+      "flow": [
+        "Approved plan rules",
+        "Calculation logic",
+        "Validate outputs",
+        "Resolve exceptions"
+      ],
+      "status": "Implementation contribution",
+      "evidence": "No confidential compensation terms, payout amounts, or unverified efficiency metrics are included."
+    }
+  ],
+  "experience": [
+    {
+      "company": "SoundCommerce",
+      "title": "Finance & Operations Business Partner · Contract",
+      "dates": "September 2026–present",
+      "bullets": [
+        "Redesigned revenue-share tracking to connect merchant mappings, partner calculations, reconciliation, and reporting.",
+        "Own recurring reconciliations and investigate residual and partner-payment discrepancies.",
+        "Audit reporting capabilities across processor portals and standardize workflows and SOPs."
+      ]
+    },
+    {
+      "company": "TrueML",
+      "title": "Payment Operations Specialist",
+      "dates": "February–June 2026",
+      "bullets": [
+        "Built product profitability calculations before automated system functionality was available.",
+        "Connected payment activity, aging, commissions, and cash-flow visibility in operational reporting.",
+        "Managed, onboarded, trained, and coached one direct report."
+      ]
+    },
+    {
+      "company": "PartsBase",
+      "title": "Senior Financial Operations Analyst",
+      "dates": "March–June 2025",
+      "bullets": [
+        "Supported CaptivateIQ implementation through compensation logic, data validation, and exception investigation.",
+        "Delivered reporting and financial operations support across Sales, Operations, and Finance.",
+        "Built residual and profitability calculations and standardized operating procedures."
+      ]
+    },
+    {
+      "company": "PayTrace",
+      "title": "Client Services → Finance & Accounting → Senior Financial Operations Analyst",
+      "dates": "May 2016–March 2025",
+      "bullets": [
+        "Owned the business workflow and reporting development for an eight-month billing rewrite.",
+        "Managed billing across the cycle through aging, AR, and reconciliation; supported budgeting, forecasting, and revenue reporting.",
+        "Built reseller reporting covering account activity and profitability; adapted reporting to different stakeholder needs.",
+        "Managed one direct report and administered biweekly payroll for 60 employees during the Financial Operations Analyst role."
+      ]
+    }
+  ]
+}
